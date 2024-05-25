@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import LeagueHome from "./pages/LeagueHome";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <Router>
       <div style={{ backgroundColor: "grey" }}>
@@ -17,5 +17,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
